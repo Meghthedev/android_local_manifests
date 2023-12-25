@@ -1,41 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="galaxy"
-          fetch="https://github.com/GalaxyM30s"
-          revision="lineage-20" />
-
-  <remote name="los"
-          fetch="https://github.com/LineageOS"
-          revision="lineage-20" />
-
   <remote name="me"
-          fetch="https://github.com/Meghthedev"
-          revision="lineage-20" />
+          fetch="https://github.com/Meghthedev" />
 
-  <remove-project name="vendor_support" />
-  
   <!-- device -->
-  <project path="device/samsung/m307f" name="android_device_samsung_m307f" remote="me" />
-  <project path="device/samsung/m30s-common" name="android_device_samsung_m30s-common" remote="me" />
-
-  <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="los" />
-
-  <!-- kernel -->
-  <project path="kernel/samsung/m30s" name="xyz-sundram/android_kernel_samsung_m30s" remote="github" clone-depth="1" revision="13" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r383902" name="moto-common/platform_prebuilts_clang_host_linux-x86_clang-r383902" remote="github" revision="master" />
-
-  <!-- vendor -->
-  <project path="vendor/samsung/m307f" name="xyz-sundram/android_vendor_samsung_m307f" remote="github" clone-depth="1" revision="13" />
-  <project path="vendor/samsung/m30s-common" name="xyz-sundram/android_vendor_samsung_m30s-common" remote="github" clone-depth="1" revision="13" />
-
-  <!-- hardware -->
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="los" />
-  <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="los" />
-  <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="los" />
-  <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="los" />
-
-  <!-- Additional repos-->
-  <project path="vendor/support" name="Meghthedev/vendor_support" remote="github" revision="13" />
+  <project path="device/samsung/m53x" name="twrp-device_samsung_m53x" remote="me" revision="los" />
 
 </manifest>
