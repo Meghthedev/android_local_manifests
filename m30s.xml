@@ -22,18 +22,24 @@
   <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="los" />
 
   <!-- kernel -->
-  <project path="kernel/samsung/m30s" name="xyz-sundram/android_kernel_samsung_m30s" remote="github" clone-depth="1" revision="13" />
+  <project path="kernel/samsung/m30s" name="Meghthedev/android_kernel_samsung_m30s" remote="github" clone-depth="1" revision="13" />
   <project path="prebuilts/clang/host/linux-x86/clang-r383902" name="moto-common/platform_prebuilts_clang_host_linux-x86_clang-r383902" remote="github" revision="master" />
 
   <!-- vendor -->
-  <project path="vendor/samsung/m307f" name="xyz-sundram/android_vendor_samsung_m307f" remote="github" clone-depth="1" revision="13" />
+  <project path="vendor/samsung/m307f" name="sundrams-playground/android_vendor_samsung_m307f" remote="github" clone-depth="1" revision="13" />
   <project path="vendor/samsung/m307fn" name="android_vendor_samsung_m307fn" remote="galaxy" clone-depth="1" />
-  <project path="vendor/samsung/m30s-common" name="xyz-sundram/android_vendor_samsung_m30s-common" remote="github" clone-depth="1" revision="13" />
+  <project path="vendor/samsung/m30s-common" name="android_vendor_samsung_m30s-common" remote="me" clone-depth="1" revision="13" />
 
   <!-- hardware -->
   <project path="hardware/samsung" name="android_hardware_samsung" remote="los" />
   <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="los" />
   <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="los" />
   <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="los" />
+  <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="lineage" />
+  <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="lineage" />
+  <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="lineage" />
+  <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="lineage" />
+  <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="lineage" />  
+  <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="lineage" />  
 
 </manifest>
