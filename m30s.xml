@@ -28,7 +28,7 @@
   <!-- vendor -->
   <project path="vendor/samsung/m307f" name="sundrams-playground/android_vendor_samsung_m307f" remote="github" clone-depth="1" revision="13" />
   <project path="vendor/samsung/m307fn" name="android_vendor_samsung_m307fn" remote="galaxy" clone-depth="1" />
-  <project path="vendor/samsung/m30s-common" name="android_vendor_samsung_m30s-common" remote="me" clone-depth="1" revision="13" />
+  <project path="vendor/samsung/m30s-common" name="vendor_samsung_m30s-common" remote="me" clone-depth="1" revision="13" />
 
   <!-- hardware -->
   <project path="hardware/samsung" name="android_hardware_samsung" remote="los" />
