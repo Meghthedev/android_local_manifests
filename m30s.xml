@@ -26,7 +26,7 @@
   <project path="prebuilts/clang/host/linux-x86/clang-r383902" name="moto-common/platform_prebuilts_clang_host_linux-x86_clang-r383902" remote="github" revision="master" />
 
   <!-- vendor -->
-  <project path="vendor/samsung/m307f" name="sundrams-playground/android_vendor_samsung_m307f" remote="github" clone-depth="1" revision="13" />
+  <project path="vendor/samsung/m307f" name="sundrams-playground/vendor_samsung_m307f" remote="github" clone-depth="1" revision="13" />
   <project path="vendor/samsung/m307fn" name="android_vendor_samsung_m307fn" remote="galaxy" clone-depth="1" />
   <project path="vendor/samsung/m30s-common" name="Meghthedev/vendor_samsung_m30s-common" remote="github" clone-depth="1" revision="13" />
 
